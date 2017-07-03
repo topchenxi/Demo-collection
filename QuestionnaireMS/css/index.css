@@ -1,0 +1,271 @@
+#main {
+    width: 1040px;
+    height: auto;
+    margin: 86px auto 0;
+}
+
+#list_head {
+    width: 1040px;
+    height: 40px;
+}
+
+#list_head span {
+    display: inline-block;
+    width: 208px;
+    text-align: center;
+}
+
+#list_head button {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 3px;
+    background-color: #EE7419;
+}
+
+#list_body {
+    height: auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.list_table {
+    line-height: 60px;
+    height: 60px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.list_table:hover {
+    background-color: #FCF0E5;
+}
+
+.list_table span {
+    display: inline-block;
+    width: 208px;
+}
+
+.list_table button,
+#list_body_footer button,
+#edit_footer_right button {
+    display: inline-block;
+    font-size: 14px;
+    width: 78px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.list_table a {
+    color: black;
+}
+
+.list_table input {
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+#list_body_footer {
+    margin: 10px 0 20px 50px;
+}
+
+#new {
+    display: none;
+    width: 1040px;
+    height: 320px;
+    margin: 86px auto 0;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#new_div {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 46px;
+    width: 190px;
+    height: 46px;
+    margin: 134px auto 0;
+    color: #FFFFFF;
+    background-color: #EE7419;
+    text-align: center;
+}
+
+#new_div a {
+    color: #FFFFFF;
+}
+
+
+/*问卷编辑区*/
+
+#edit {
+    width: 1040px;
+    height: auto;
+    margin: 70px auto 0;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+#edit_title {
+    width: 100%； border-bottom: 2px solid #CCCCCC;
+    height: 108px;
+}
+
+#edit_title input {
+    font-size: 21px;
+    font-weight: bold;
+    width: 440px;
+    height: 40px;
+    margin-top: 34px;
+    margin-left: 150px;
+    padding-left: 300px;
+    border-width: 0;
+}
+
+#edit_body {
+    width: 970px;
+    height: auto;
+    margin: auto;
+    padding: 27px 0;
+    border-top: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+#edit_add {
+    font-size: 18px;
+    line-height: 84px;
+    width: 928px;
+    height: 84px;
+    color: #A9A9A9;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+#edit_footer {
+    width: 100%;
+    height: 104px;
+    padding-top: 36px;
+}
+
+#edit_footer_left {
+    float: left;
+    font-size: 20px;
+    font-size: 14px;
+    margin-left: 120px;
+}
+
+#edit_footer_right {
+    float: right;
+    line-height: 35px;
+    margin-right: 184px;
+}
+
+#edit_footer_left input {
+    width: 249px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+#edit_body_se {
+    width: 928px;
+    height: auto;
+    margin: 20px auto 0;
+    border: 1px solid #D2D2D2;
+}
+
+#edit_select {
+    display: none;
+    font-size: 15px;
+    width: 364px;
+    height: 34px;
+    margin: 17px auto;
+}
+
+#edit_select input {
+    width: 102px;
+    height: 34px;
+    margin: 0 8px;
+}
+
+#edit_body_list {
+    width: 934px;
+    height: auto;
+}
+
+.que {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    margin-bottom: 20px;
+}
+
+.que:hover {
+    background: #FDF1E6;
+}
+
+.que input {
+    margin: 6px;
+}
+
+.queTitle {
+    margin-left: 24px;
+}
+
+.queOption {
+    margin-left: 62px;
+}
+
+#textarea {
+    width: 540px;
+    height: 100px;
+    border: 1px solid #CFCFCF;
+}
+
+.que span {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
+
+#look_data {
+    display: none;
+    position: relative;
+    width: 1040px;
+    height: 400px;
+    margin: 50px auto;
+    background: #FFFFFF;
+}
+
+#look_back {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+#look_back a {
+    margin-right: 10px;
+    color: black;
+}
+
+#look_title {
+    width: 970px;
+    height: 60px;
+    margin: 20px auto;
+    padding-top: 20px;
+    border-bottom: 2px solid #EEEEEE;
+    text-align: center;
+}
+
+#look_title_u {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px auto;
+}
