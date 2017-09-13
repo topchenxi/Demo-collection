@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+.inline-spinner,.spinner {
+  -webkit-animation: spinner-animation 1s step-end infinite;
+  background-image: url('images/spinner.svg');
+  background-size: 100%;
+}
+
+.inline-spinner {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+.spinner {
+  height: 22px;
+  width: 22px;
+}
+
+@-webkit-keyframes spinner-animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  8.33% {
+    -webkit-transform: rotate(30deg);
+  }
+  16.67%  {
+    -webkit-transform: rotate(60deg);
+  }
+  25%  {
+    -webkit-transform: rotate(90deg);
+  }
+  33.33%  {
+    -webkit-transform: rotate(120deg);
+  }
+  41.67%  {
+    -webkit-transform: rotate(150deg);
+  }
+  50%  {
+    -webkit-transform: rotate(180deg);
+  }
+  58.33%  {
+    -webkit-transform: rotate(210deg);
+  }
+  66.67%  {
+    -webkit-transform: rotate(240deg);
+  }
+  75%  {
+    -webkit-transform: rotate(270deg);
+  }
+  83.33%  {
+    -webkit-transform: rotate(300deg);
+  }
+  91.67%  {
+    -webkit-transform: rotate(330deg);
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="loading-spinner">
+  <span id="loading">
+    <div id="spinner" class="inline-spinner"></div>
+    <span i18n-content="loading">正在加载...</span>
+  </span>
+</div>
+
+</body>
+</html>
